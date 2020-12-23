@@ -25,3 +25,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="coral-user 12 SQ3A.220705.003.A1 8672226 release-keys"
 
 BUILD_FINGERPRINT := google/coral/coral:12/SQ3A.220705.003.A1/8672226:user/release-keys
+
+$(call inherit-product, vendor/google/coral/coral-vendor.mk)
