@@ -10,7 +10,7 @@ $(call inherit-product, vendor/kscope/target/product/mobile.mk)
 # Inherit device configuration
 $(call inherit-product, device/google/coral/aosp_coral.mk)
 
-include device/google/coral/device-kscope.mk
+include device/google/coral/coral/device-kscope.mk
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
