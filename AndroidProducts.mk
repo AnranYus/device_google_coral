@@ -25,7 +25,11 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_flame.mk \
     $(LOCAL_DIR)/aosp_coral_hwasan.mk \
     $(LOCAL_DIR)/aosp_flame_hwasan.mk \
+    $(LOCAL_DIR)/kscope_coral.mk \
+    $(LOCAL_DIR)/kscope_flame.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_coral-userdebug \
     aosp_flame-userdebug \
+    kscope_coral-userdebug \
+    kscope_flame-userdebug
